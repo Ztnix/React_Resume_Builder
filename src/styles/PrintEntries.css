@@ -1,0 +1,21 @@
+.card {
+  display: flex;
+  gap: 1rem;
+}
+
+.leftCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 22%;
+}
+
+.rightCard {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.rightCardTitle {
+  font-weight: bold;
+}

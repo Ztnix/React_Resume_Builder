@@ -1,0 +1,9 @@
+.headerName {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.headerDetails {
+  display: flex;
+  gap: 4rem;
+}

@@ -1,0 +1,58 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(210, 239, 255);
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  /* margin: auto; */
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.leftSide {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  gap: 2.5rem;
+  flex-grow: 1;
+}
+
+.leftSideTop {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.leftSideTop button {
+  display: flex;
+  flex-grow: 1;
+  padding: 1rem;
+  background-color: #fff;
+  justify-content: center;
+  font-weight: 700;
+}
+
+.leftSideBot {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2.5rem;
+}
+
+.rightSide {
+  display: flex;
+  flex-direction: column;
+  height: 27.94cm;
+  width: 21.59cm;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px silver;
+}

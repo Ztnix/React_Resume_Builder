@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 2rem;
+  background-color: #003477;
+  color: #fff;
+}
+
+.resumeBody {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.resumeHeader {
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+.resumeSubsectionContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.resumeEntries {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
