@@ -1,0 +1,12 @@
+To Be Added:
+
+- Multi-page resumes
+- Swap/Allow for bullet points instead of just text areas for descriptions
+- Header Color picker
+- Add skills secction
+- Maybe add a section maker
+- Add limitations to inputs
+- Play with styles, particularly around resume body
+- Add toggle for images inside header
+- Add layout presets to choose from
+- Merge redundant components (education and experience components)

@@ -25,6 +25,7 @@ export default function InputComponent({
         <div className="input">
           <div className="inputLabel">{label}</div>
           <textarea
+            rows={5}
             onChange={onChange}
             value={value}
             placeholder={placeholder}

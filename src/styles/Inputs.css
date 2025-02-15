@@ -99,3 +99,8 @@
   width: 30%;
   font-weight: 600;
 }
+
+textarea {
+  width: 100%;
+  resize: none;
+}

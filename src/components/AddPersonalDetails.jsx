@@ -42,6 +42,21 @@ export default function AddPersonalDetails({
               value={personalDetails.location}
               name="location"
             />
+            <InputComponent
+              label="Niche/Expertise"
+              placeholder="Full Stack Developer"
+              onChange={onChange}
+              value={personalDetails.expertise}
+              name="expertise"
+            />
+            <InputComponent
+              label="Description"
+              placeholder="Tell everyone about yourself here"
+              onChange={onChange}
+              value={personalDetails.description}
+              name="description"
+              type="textarea"
+            />
           </div>
         )}
       </div>

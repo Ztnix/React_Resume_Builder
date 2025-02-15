@@ -7,3 +7,14 @@
   display: flex;
   gap: 4rem;
 }
+
+.headerExpertise {
+  margin-top: -0.6rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.headerDescription {
+  text-wrap: wrap;
+}

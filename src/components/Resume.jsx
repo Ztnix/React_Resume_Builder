@@ -15,13 +15,18 @@ export default function Resume({
       </div>
       <div className="resumeBody">
         <div className="resumeSubsectionContainer">
-          <div className="resumeHeader">Education</div>
+          {educationDetails.length > 0 && (
+            <div className="resumeHeader">Education</div>
+          )}
+
           <div className="resumeEntries">
             <PrintEducationDetails educationDetails={educationDetails} />
           </div>
         </div>
         <div className="resumeSubsectionContainer">
-          <div className="resumeHeader">Profesional Experience</div>
+          {experienceDetails.length > 0 && (
+            <div className="resumeHeader">Profesional Experience</div>
+          )}
           <div className="resumeEntries">
             <PrintExperienceDetails experienceDetails={experienceDetails} />
           </div>
